@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muskan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Muskan</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+    <h1>Hi, I'm Muskan</h1>
+    <p>B.Tech CSE Student | Aspiring Frontend Developer</p>
+    <a href="resume.pdf" download class="download-btn">Download Resume</a>
+</section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech Computer Science student passionate about web development.
+            I have leadership experience as a Volleyball Captain at state level.
+            I am constantly learning and building projects to improve my skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="bar"><div class="html"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="bar"><div class="css"></div></div>
+        </div>
+
+        <div class="skill">
+            <p>Basic Java</p>
+            <div class="bar"><div class="java"></div></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-box">
+            <h3>To-Do List</h3>
+            <p>A simple task management app built using HTML and CSS.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>Landing Page Design</h3>
+            <p>Responsive landing page using modern CSS layout.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="showMessage(); return false;">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
